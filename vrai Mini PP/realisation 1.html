@@ -1,0 +1,407 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./animate.css">
+<link rel="stylesheet" href="./bootstrap.css">
+<title>realisation</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+	<div id="remonter"></div>
+	<!--header-->
+	<header>
+			<div id="logo">
+				<img src="images/kini_animation2v-01.png" alt="">
+			</div>
+	
+			<label for="ch" id="lab" class="labe"></label>
+			<input type="checkbox" id="ch">	
+
+			<nav class="lien1">
+				<ul>
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="agence.html">Agence</a></li>
+					<li><a href="service.html"> Services</a></li>
+					<li><a href="#">Réalisations</a></li>
+					<li><a href="#Yoram">Contacts</a></li>
+				</ul>
+			</nav>
+	</header>
+	<!--header-->
+	<form action="#" id="Yoram" name="forum" style="width: 800px; height:110%;">
+ 
+     <a href="#forum" class="menu-close" aria-expanded="false" aria-controls="main-contact" aria-label="Fermer le formulaire de Contact"><img src="images/di.png" class="di" alt=""></a>
+		
+	<p class="tilte">CONTACTEZ-NOUS
+	 <a id="phone" href="tel:+225 01 03 11 05 28"><img src="ic.png" alt="" width="18px"> +225 01 03 11 05 28
+	 </a>
+ </p>
+
+ <div class="formulaire">
+ <p class="colx2"> <label><span class="no"><input type="text" name="nm" size="40" placeholder="Nom" style="width: 130%; height: 125%; float: left; position: relative;
+	 left: -230px;" onChange="document.forum.nm.value=document.forum.nm.value.toUpperCase()"></span></label>
+ 
+<label><span class="pre"><input type="text" name="pren" size="40" placeholder="Prénom" style="margin-left: 20px; width: 130%; height: 125%;"></span></label></p>
+	
+	
+<p class="colx2"><label><span class="mail"><input type="text" name="email" size="40" placeholder="E-mail" required="required" style="margin-left: 20px; width: 122%; height: 125%; float: left; position: relative;
+	 left: -270px;"></span></label>
+	
+<label><span class="tel"><input type="text" name="tele" size="40" placeholder="Téléphone" required="required" style="margin-left: 20px; width: 130%; height: 125%;"></span></label></p>
+	
+
+<p><label><span class="inputo"><textarea name="mes" cols="40" rows="10"  placeholder="Message"  style="margin-left: 96px; width: 218%;"></textarea></span></label></p>
+	
+<p><span class="bi"><span class="bt"  style="margin-left: 120px; width: 90%;"><label><input type="checkbox" value="1"><span class="text" style="	margin-top: 10px; margin-left: 10px; font-size: 20px;">En soumettant ce formulaire, j'accepte que les informations saisies <br> soient exploitées dans le cadre de la demande de contact.</span></label></span></span></p>
+
+<p><input type="submit" value="Envoyer" class="env" onClick="return valider();"></p>
+</div>	
+</form>
+
+
+	
+	<!--baniere 19-->
+	<div id="gif">
+	<video autoplay="autoplay" loop="loop" id="baniere" muted="muted" class="deo">
+		<source src="images/background v2.mp4">
+	</video>	
+	</div>
+	<!--fin baniere 19-->
+	
+	<!--baniere 20-->
+	<div id="portfolio">
+		<h1 class="animate-box" data-animate-effect="fadeInLeft">Portfolio</h1>
+	</div>
+	<!--fin baniere 20-->
+	
+	<!--baniere 21-->
+		<nav class="menu">
+			<ul>
+				<li><a href="#">Prints</a></li>
+				<li><a href="devweb.html">Dévéloppement Web</a></li>
+				<li><a href="spots.html">Spots</a></li>
+			</ul>
+		</nav>
+	<!--fin baniere 21-->
+
+		<!--baniere 21-->
+		<nav class="menuB" >
+			<ul>
+				<li><input type="submit" id="Affiche" value="Affiche"/></li>
+				<li> <input type="submit" id="Dépliant" value="Dépliant"/></li>
+				<li> <input type="submit" id="Kakémono" value="Kakémono"/> </li>
+			</ul>
+		</nav>
+	<!--fin baniere 21-->
+	
+	<!-- baniere 22-->
+		<section id="grande_boite">
+		<div  class="serveur Affiche" id="serveur">
+	            <div class="serveur_unique">
+					<img name="affiche1" src="images/affiche modif2.png" alt="" class="animate-box" data-animate-effect="fadeInRight">
+				<div class="serveur_sur">
+					<div class="description4">
+					    <h3>Agence KINI</h3>
+                        <hr>
+                        <p>Affiche</p>
+					</div>
+				</div>
+				</div>
+				</div>
+
+		<div  class="servant Affiche" id="servant">
+
+	            <div class="servant_unique">
+					<img src="images/affiche modif3.png" alt="" class="animate-box" data-animate-effect="fadeInLeft">
+				<div class="servant_sur">
+					<div class="description5">
+					    <h3>Agence KINI</h3>
+                        <hr>
+                        <p>Affiche</p>
+					</div>
+				</div>
+				</div>
+				</div>
+
+		<div  class="serviteur Affiche" id="serviteur">
+	            <div class="serviteur_unique">
+					<img src="images/20220328_092406.png" alt="" class="animate-box" data-animate-effect="fadeInLeft">
+				<div class="serviteur_sur">
+					<div class="description6">
+					    <h3>Agence KINI</h3>
+                        <hr>
+                        <p>Affiche</p>
+					</div>
+				</div>
+				</div>
+				</div>
+		</section>
+	
+		<section id="grande_boite1">
+			<div  class="depli Dépliant" id="depli">
+	            <div class="depli_unique">
+					<img src="images/depliant 2-03.png" alt="" class="animate-box" data-animate-effect="fadeInLeft">
+				<div class="depli_sur">
+					<div class="description7">
+					    <h3>Agence KINI</h3>
+                        <hr>
+                        <p>Dépliant</p>
+					</div>
+				</div>
+				</div>
+				</div>
+
+			<div  class="depli1 Dépliant" id="depli1">
+	            <div class="depli1_unique">
+					<img src="images/depliant 2-04.png" alt="" class="animate-box" data-animate-effect="fadeInLeft">
+				<div class="depli1_sur">
+					<div class="description8">
+					    <h3>Agence KINI</h3>
+                        <hr>
+                        <p>Dépliant</p>
+					</div>
+				</div>
+				</div>
+				</div>
+		</section>
+	
+		<section id="grande_boite2">
+			<div  class="depli2 Dépliant" id="depli2">
+	            <div class="depli2_unique">
+					<img src="images/depliant 2-01.png" alt="" class="animate-box" data-animate-effect="fadeInLeft">
+				<div class="depli2_sur">
+					<div class="description9">
+					    <h3>Agence KINI</h3>
+                        <hr>
+                        <p>Dépliant</p>
+					</div>
+				</div>
+				</div>
+				</div>
+
+			<div  class="depli3 Dépliant" id="depli3">
+	            <div class="depli3_unique">
+					<img src="images/depliant 2-02.png"  alt="" class="animate-box" data-animate-effect="fadeInLeft">
+				<div class="depli3_sur">
+					<div class="description10">
+					    <h3>Agence KINI</h3>
+                        <hr>
+                        <p>Dépliant</p>
+					</div>
+				</div>
+				</div>
+				</div>
+		</section>
+	
+		<section id="grande_boite3">
+			<div  class="depli4 Dépliant" id="depli4">
+	            <div class="depli4_unique">
+					<img src="images/dépliant 0010000-03.png" alt="" class="animate-box" data-animate-effect="fadeInLeft">
+				<div class="depli4_sur">
+					<div class="description11">
+					    <h3>Agence KINI</h3>
+                        <hr>
+                        <p>Dépliant</p>
+					</div>
+				</div>
+				</div>
+				</div>
+
+			<div  class="depli5 Dépliant" id="depli5">
+	            <div class="depli5_unique">
+					<img src="images/dépliant 0010000-04.png"  alt="" class="animate-box" data-animate-effect="fadeInLeft">
+				<div class="depli5_sur">
+					<div class="description12">
+					    <h3>Agence KINI</h3>
+                        <hr>
+                        <p>Dépliant</p>
+					</div>
+				</div>
+				</div>
+				</div>
+		</section>
+
+		<section id="grande_boite4">
+			<div  class="depli6 Dépliant" id="depli6">
+	            <div class="depli6_unique">
+					<img src="images/dépliant gabarit 2_Plan de travail 1.jpg" alt="" class="animate-box" data-animate-effect="fadeInLeft">
+				<div class="depli6_sur">
+					<div class="description13">
+					    <h3>Agence KINI</h3>
+                        <hr>
+                        <p>Dépliant</p>
+					</div>
+				</div>
+				</div>
+				</div>
+
+			<div  class="depli7 Dépliant" id="depli7">
+	            <div class="depli7_unique">
+					<img src="images/dépliant gabarit 2-02.jpg"  alt="" class="animate-box" data-animate-effect="fadeInLeft">
+				<div class="depli7_sur">
+					<div class="description14">
+					    <h3>Agence KINI</h3>
+                        <hr>
+                        <p>Dépliant</p>
+					</div>
+				</div>
+				</div>
+				</div>
+		</section>
+
+		<section id="grande_boite5">
+			<div  class="kak Kakémono" id="kak">
+	            <div class="kak_unique">
+					<img src="images/kakemono finall (1)-01.jpg" alt="" class="animate-box" data-animate-effect="fadeInLeft">
+				<div class="kak_sur">
+					<div class="description15">
+					    <h3>Agence KINI</h3>
+                        <hr>
+                        <p>Kakémono</p>
+					</div>
+				</div>
+				</div>
+				</div>
+
+			<div  class="kak1 Kakémono" id="kak1">
+	            <div class="kak1_unique">
+					<img src="images/kakemono finall (1)-02.jpg"  alt="" class="animate-box" data-animate-effect="fadeInLeft">
+				<div class="kak1_sur">
+					<div class="description16">
+					    <h3>Agence KINI</h3>
+                        <hr>
+                        <p>Kakémono</p>
+					</div>
+				</div>
+				</div>
+				</div>
+			<div  class="kak2 Kakémono" id="kak2">
+	            <div class="kak2_unique">
+					<img src="images/kakemono finall (1)-05.jpg"  alt="" class="animate-box" data-animate-effect="fadeInLeft">
+				<div class="kak2_sur">
+					<div class="description17">
+					    <h3>Agence KINI</h3>
+                        <hr>
+                        <p>Kakémono</p>
+					</div>
+				</div>
+				</div>
+				</div>
+
+		</section>
+	
+		<section id="grande_boite6">
+			<div  class="kak3 Kakémono" id="kak3">
+	            <div class="kak3_unique">
+					<img src="images/kakemono finall (1)-01.jpg" alt="" class="animate-box" data-animate-effect="fadeInLeft">				
+			<div class="kak3_sur">
+					<div class="description18">
+					    <h3>Agence KINI</h3>
+                        <hr>
+                        <p>Kakémono</p>
+					</div>
+				</div>
+				</div>
+				</div>
+
+			<div  class="kak4 Kakémono" id="kak4">
+	            <div class="kak4_unique">
+					<img src="images/kakemono finall (1)-02.jpg"  alt="" class="animate-box" data-animate-effect="fadeInLeft">
+				<div class="kak4_sur">
+					<div class="description19">
+					    <h3>Agence KINI</h3>
+                        <hr>
+                        <p>Kakémono</p>
+					</div>
+				</div>
+				</div>
+				</div>
+			<div  class="kak5 Kakémono" id="kak5">
+	            <div class="kak5_unique">
+					<img src="images/kakemono finall (1)-05.jpg"  alt="" class="animate-box" data-animate-effect="fadeInLeft">
+				<div class="kak5_sur">
+					<div class="description20">
+					    <h3>Agence KINI</h3>
+                        <hr>
+                        <p>Kakémono</p>
+					</div>
+				</div>
+				</div>
+				</div>
+
+		</section>
+
+
+
+
+
+	<!--fin baniere 22-->
+
+	<!-- footer-->
+		<footer id="footer">
+			<div id="pied">
+				<p>Vuenova votre agence de <br>communication digitale, <br> dans l’innovation tout au long<br> de vos projets.</p>
+				<h1>AU PLAISIR DE TRAVAILLER AVEC VOUS !</h1>
+			</div>
+			
+				<nav id="lien2">
+					<ul>
+						<li><a href="">L'agence</a></li><br>
+						<li><a href="">Nos services</a></li><br>
+						<li><a href="">Nos réalisations</a></li><br>
+						<li><a href="">Contactez-nous</a></li><br>
+					</ul>
+				</nav>
+				
+				<div id="contact">	
+                	<img src="images/mail.png" alt="" class="ico">
+					<p>Lorem ipsu</p>
+
+                	<img src="images/call.png" alt="" class="ico">
+                	<p>01-03-11-05-28 </p>
+					
+                	<img src="images/loca-01-01.png" alt="" class="local">
+                	<p>Abidjan, Côte d'Ivoire</p>
+				</div>
+                <a href="#remonter">
+                    <div class="remonter1">
+                        <img src="images/images.png" alt="">               
+                    </div>
+                </a>
+		</footer>
+	
+			<div id="copyrighting">
+				<p>@2022 KINI/ Tous droits réservés</p>
+			     <a href=""><img name="facebook" src="images/1051387-02.png" alt="" onMouseOver="document.facebook.src='images/fb.png'" onMouseOut="document.facebook.src='images/1051387-02.png'"></a>
+				
+                <a href="https://www.behance.net/parcker57b479" target="_blank"><img name="behance" src="images/icone behance.png" alt="" onMouseOver="document.behance.src='images/be.png'" onMouseOut="document.behance.src='images/icone behance.png'"></a>
+				
+                <a href=""><img name="instagram" src="images/icone insta.png" alt="" onMouseOver="document.instagram.src='images/gram.png'" onMouseOut="document.instagram.src='images/icone insta.png'"></a>
+
+			</div>
+	<!-- fin footer-->
+	
+
+
+<script src="./jquerymin.js.js"></script>
+	<script src="./typed.min.js.js"></script>
+	<script src="./bootstrap.min.js"></script>
+	<script src="./jquery.magnific-popup.min.js"></script>
+	<script src="./jquery.waypoints.min.js"></script>
+	<script src="./magnific-popup-options.js"></script>
+
+	<script src="./realisation.js"></script>
+	<script src="./main grace.js"></script>
+
+	<script src="./main.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

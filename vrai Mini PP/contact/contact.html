@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css"> 
+<link rel="stylesheet" href="style.css">
+<script>
+	function valider()
+	{ 
+		if(document.forum.nm.value=="")
+		{
+			window.alert("veuillez saisir votre nom SVP !");
+			document.forum.nm.focus();
+			return false;
+		}
+		
+	 	if(document.forum.pren.value=="")
+		{
+			window.alert("veuillez saisir votre Prénom SVP !");
+			document.forum.pren.focus();
+			return false;
+		}
+
+	}
+</script>
+<title>Document sans nom</title>
+
+</head>
+<label for="co" id="con" class="la"></label><input type="checkbox" id="co">
+<body>
+<div id="fo">
+	
+<form action="#" name="forum">
+
+
+ <p class="tilte">CONTACTEZ-NOUS
+	 <a id="phone" href="tel:+225 01 03 11 05 28"><img src="ic.png" alt="" width="18px"> +225 01 03 11 05 28</a>
+ </p>
+<div class="formulaire">
+ <p class="colx2"> <label><span class="no"><input type="text" name="nm" size="40" placeholder="Nom"></span></label>
+ 
+<label><span class="pré"><input type="text" name="pren" size="40" placeholder="Prénom"></span></label></p>
+	
+	
+<p class="colx2"><label><span class="mail"><input type="text" name="email" size="40" placeholder="E-mail" required="required"></span></label>
+	
+<label><span class="tel"><input type="text" name="tele" size="40" placeholder="Téléphone" required="required"></span></label></p>
+	
+<label><span class="su"><input type="text" name="le" size="40" placeholder="Sujet"></span></label>
+	
+
+<p><label><span class="inputo"><textarea name="mes" cols="40" rows="10"  placeholder="Message"></textarea></span></label></p>
+	
+<p><span class="bi"><span class="bt"><label><input type="checkbox" value="1"><span class="text">En soumettant ce formulaire, j'accepte que les informations saisies <br> soient exploitées dans le cadre de la demande de contact.</span></label></span></span></p>
+
+<p><input type="submit" value="Envoyer" class="env" onClick="return valider();"></p>
+</div>	
+</form>
+</div>
+</body>
+</html>

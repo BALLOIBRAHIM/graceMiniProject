@@ -1,0 +1,132 @@
+#Yoram{
+  display: none;
+  z-index: 11;
+  transition: all 1s ease;
+}
+#Yoram:target{
+  display: table;
+  z-index: 11;
+  background-color: #fff;
+  width: 800px;
+  height: 98%;
+  position: absolute;
+  left: 565px;
+  border-radius: 200px 0px 0px 200px;
+  overflow-y: scroll;
+  box-shadow: -10px 0 250px #131a2438;
+  float: right;
+  margin-top: -20px;
+ 
+}
+
+.main-contact .menu-close {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s; 
+}
+
+.di{
+	width: 20px;
+	margin-left: 125px;
+	margin-top: 26px;
+	
+}
+
+.tilte{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	text-transform: uppercase;
+	color:#E800BB;
+	margin-top: 14px;
+	margin-left: 90px;
+}
+#phone{
+   display: block;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	margin-top: 17px;
+	margin-left: -8px;
+	color: black;
+}
+.formulaire{
+	margin-top: 36px;
+	margin-left: -50px;
+}
+.colx2{
+	display: flex;
+	justify-content:flex-end;
+	margin: 10px 0 20px;
+	
+	
+}
+.no{
+	position: relative;
+}
+.colx2 label input{
+	width:90%;
+	border-radius: 20px;
+	padding: 10px;
+	border: 0px;
+	outline:none;
+	box-shadow: 1px 3px 7px #6c778160;
+	margin-left: -15%;
+}
+.su  input{
+	width:74%;
+	border-radius: 20px;
+	padding: 10px;
+	border: 0px;
+	outline:none;
+	margin-left:141px;
+	box-shadow: 1px 3px 7px #6c778160;
+}
+.inputo textarea{
+    width:74%;
+	border-radius: 20px;
+	padding: 10px;
+	border: 0px;
+	outline:none;
+	box-shadow: 1px 3px 7px #6c778160;
+	margin-left:141px;
+}
+.text {
+	
+	display: inline-block;
+	padding-top:-10px;
+	font-weight: 300;
+}
+.bt {
+	margin-left: 140px;
+	box-shadow: 0 0 0 transparent;
+	margin-top:60px;
+}
+.env{
+	border: 1px solid ;
+    width:40%;
+	border-radius: 20px;
+	line-height: 135%;
+	padding: 10px;
+	margin-left:28%;
+	margin-top: 18px;
+	outline:none;
+	box-shadow: 1px 3px 7px #6c778160;
+    background: #000000;
+	color: #fff;
+	cursor: pointer;
+}
+.env:hover{
+    background:#E800BB;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 0 0 transparent;
+}

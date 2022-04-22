@@ -1,0 +1,135 @@
+#fo{
+	background: #f5f;
+	width: 600px;
+	height: 97vh;
+	position: relative;
+	float: right;
+	list-style: none;
+	margin-right: 50px;	
+	border-radius: 10% 0px 0px 10%;
+	transform: translate(730px,0px);
+	transition: all 1.5s ease;
+}
+
+.tilte{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	text-transform: uppercase;
+	color:#E800BB;
+}
+#phone{
+   display: block;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	margin-top: 20px;
+	margin-left: 26px;
+	color: black;
+}
+.formulaire{
+	margin-top: 30px;
+}
+.colx2{
+	display: flex;
+	justify-content:flex-end;
+	margin: 10px 0 20px;
+	
+	
+}
+.no{
+	position: relative;
+}
+.colx2 label input{
+	width:90%;
+	border-radius: 20px;
+	padding: 10px;
+	border: 0px;
+	outline:none;
+	box-shadow: 1px 3px 7px #6c778160;
+	margin-left: 1%;
+}
+.su  input{
+	width:93%;
+	border-radius: 20px;
+	padding: 10px;
+	border: 0px;
+	outline:none;
+	margin-left: 1%;
+	box-shadow: 1px 3px 7px #6c778160;
+}
+.inputo textarea{
+    width:93%;
+	border-radius: 20px;
+	padding: 10px;
+	border: 0px;
+	outline:none;
+	box-shadow: 1px 3px 7px #6c778160;
+	margin-left:1%;
+}
+.text {
+	margin-left:1%;
+	display: inline-block;
+	padding-top:-10px;
+	font-weight: 300;
+}
+.bt {
+	margin-left: 1%;
+	box-shadow: 0 0 0 transparent;
+}
+.env{
+	border: 1px solid ;
+    width:40%;
+	border-radius: 20px;
+	line-height: 135%;
+	padding: 10px;
+	margin-left:28%;
+	margin-top: 18px;
+	outline:none;
+	box-shadow: 1px 3px 7px #6c778160;
+    background: #000000;
+	color: #fff;
+	cursor: pointer;
+}
+.env:hover{
+    background:#E800BB;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 0 0 transparent;
+}
+
+
+
+
+
+
+#co{
+}
+
+.la{
+	content: url('images/telephone.png');
+}
+
+#con{
+	width: 30px;
+	height: 30px;
+	margin-left: -10px;
+	margin-top: -80px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+#co:checked+#fo{
+	transform: translate(50px,0px);
+	transition: all 1.5s ease;
+}
+
+
+.lab{
+	content: url('images/di.png');
+}
+
+.retour{
+	width: 20px;
+	height: 20px;
+}
